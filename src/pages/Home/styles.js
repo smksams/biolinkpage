@@ -116,6 +116,7 @@ export const RightWrapper = styled.div`
   text-align: center;
   justify-content: center;
   color: ${({ theme }) => theme.COLORS.CLARO};
+  overflow: hidden;
 
   h1 {
     padding: 6rem 0 0;
