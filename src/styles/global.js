@@ -15,6 +15,9 @@ export default createGlobalStyle`
 body {
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: linear-gradient(#FF9AB1, #000000);
 }
 
 body, input, button, textarea {

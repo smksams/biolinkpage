@@ -3,12 +3,12 @@ import styled from "styled-components";
 
 export const Container = styled.main`
   display: grid;
-  grid-template-areas: "image content"
-                       "footer footer";
+  grid-template-areas: 
+  "image content"
+  "footer footer";
+  
   width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(#FF9AB1, #000000);
-  background-repeat: no-repeat;
+  min-height: 100vh;
 
   .slide-in-right-icon:first-of-type {
 	  -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
