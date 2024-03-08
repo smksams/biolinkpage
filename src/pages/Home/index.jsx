@@ -1,9 +1,9 @@
 import { Container, RightWrapper, LeftWrapper } from './styles';
 
-import eye from '../../assets/eye.jpg'
-import art from '../../assets/art.jpg'
-import serum from '../../assets/serum.jpg'
-import stick from '../../assets/stick.jpg'
+import eye from '../../assets/eye.webp'
+import art from '../../assets/art.webp'
+import serum from '../../assets/serum.webp'
+import stick from '../../assets/stick.webp'
 import { FaTiktok, FaYoutube, FaInstagram, FaPinterest } from 'react-icons/fa'
 
 import { Button } from '../../components/Button';

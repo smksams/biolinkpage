@@ -25,13 +25,16 @@ export const Container = styled.main`
   .slide-in-right-button:last-of-type {
 	  -webkit-animation: slide-in-right 0.85s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	  animation: slide-in-right 0.85s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  }
+  }*/
 
   @keyframes fadeIn {
     0% { opacity: 0;}
+    20% { opacity:0;}
+    40%  { opacity:0;}
     100% { opacity: 1;}
   }
 
+  /*
   @-webkit-keyframes tracking-in-expand {
   0% {
     letter-spacing: -0.5em;
@@ -84,7 +87,7 @@ export const LeftWrapper = styled.div`
   .img-wrapper{  
     padding: .4rem;
     background-color: ${({ theme }) => theme.COLORS.CLARO};
-    /* animation: fadeIn 1.5s; */
+    animation: fadeIn 3s;
   }
   img {
     width: 100%;
@@ -140,11 +143,11 @@ export const RightWrapper = styled.div`
     padding: 6rem 0 0;
     font-size: 4rem;
     font-weight: 400;
-    animation: fadeIn 1s;
+
   }
 
   p {
-    animation: fadeIn 1s;
+
   }
 
   .button-wrapper {
