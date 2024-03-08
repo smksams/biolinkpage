@@ -6,6 +6,7 @@ export const Container = styled.main`
   grid-template-areas: "image content"
                        "footer footer";
   width: 100%;
+  height: 100vh;
   background-image: linear-gradient(#FF9AB1, #000000);
   background-repeat: no-repeat;
 
