@@ -42,16 +42,16 @@ export function Home() {
 
         <div className='button-wrapper'>
           <div className="icon-wrapper slide-in-right-icon">
-            <ButtonText link='#' icon={FaTiktok} iconSize={20} />
-            <ButtonText link='#' icon={FaInstagram} iconSize={20} />
+            <ButtonText link='https://www.tiktok.com/@isabellaafrederico' icon={FaTiktok} iconSize={20} />
+            <ButtonText link='https://www.instagram.com/isabellaafrederico/' icon={FaInstagram} iconSize={20} />
           </div>
 
           <Button className='slide-in-right-button' text={'MEUS CUPONS'} />
           <Button className='slide-in-right-button' text={'FALE COMIGO'} onClick={sendEmail} />
 
           <div className="icon-wrapper slide-in-right-icon">
-            <ButtonText link='#' icon={FaPinterest} iconSize={20} />
-            <ButtonText link='#' icon={FaYoutube} iconSize={20} />
+            <ButtonText link='https://br.pinterest.com/isabellaafrederico/' icon={FaPinterest} iconSize={20} />
+            <ButtonText link='https://www.youtube.com/@Isabellaafrederico' icon={FaYoutube} iconSize={20} />
           </div>
         </div>
       </RightWrapper>
