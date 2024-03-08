@@ -9,6 +9,7 @@ export const Container = styled.main`
   
   width: 100%;
   min-height: 100vh;
+  background-image: linear-gradient(#FF9AB1, #000000);
 
   .slide-in-right-icon:first-of-type {
 	  -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
