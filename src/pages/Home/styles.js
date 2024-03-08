@@ -85,7 +85,6 @@ export const LeftWrapper = styled.div`
     display: flex;
     padding: .4rem;
     background-color: ${({ theme }) => theme.COLORS.CLARO};
-    object-fit: contain;
     animation: fadeIn 1.5s;
   }
   img {
@@ -98,19 +97,14 @@ export const LeftWrapper = styled.div`
     z-index: 1;
     max-width: 14rem;
     left: 4rem;
-    >img{
-      height: 14rem;
-    }
-
+    height: 14rem;
   }
   .second{
     position: relative;
     transform: rotate(-23deg);
     z-index: 2;
     max-width: 14rem;
-    >img{
-      height: 13rem;
-    }
+    height: 13rem;
   }
   .third{
     position: relative;
@@ -119,9 +113,7 @@ export const LeftWrapper = styled.div`
     max-width: 12rem;
     bottom: 3rem;
     left: 7rem;
-    >img{  
-      height: 14rem;
-    }
+    height: 14rem;
   }
   .fourth{
     position: relative;
@@ -129,10 +121,7 @@ export const LeftWrapper = styled.div`
     transform: rotate(-30deg);
     bottom: 4rem;
     max-width: 13rem;
-    >img{
-      height: 14rem;
-    }
-    
+    height: 14rem;    
   }
 `
 export const RightWrapper = styled.div`
