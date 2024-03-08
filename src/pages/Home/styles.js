@@ -10,7 +10,7 @@ export const Container = styled.main`
   width: 100%;
   min-height: 100vh;
 
-  /* .slide-in-right-icon:first-of-type {
+  .slide-in-right-icon:first-of-type {
 	  -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	  animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
@@ -25,7 +25,7 @@ export const Container = styled.main`
   .slide-in-right-button:last-of-type {
 	  -webkit-animation: slide-in-right 0.85s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	  animation: slide-in-right 0.85s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  }*/
+  }
 
   @keyframes fadeIn {
     0% { opacity: 0;}
@@ -34,31 +34,6 @@ export const Container = styled.main`
     100% { opacity: 1;}
   }
 
-  /*
-  @-webkit-keyframes tracking-in-expand {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 1;
-  }
-  }
-  @keyframes tracking-in-expand {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 1;
-  }
-  }
   @keyframes slide-in-right {
   0% {
     -webkit-transform: translateX(1000px);
@@ -70,12 +45,17 @@ export const Container = styled.main`
             transform: translateX(0);
     opacity: 1;
   }
-  } */
+  } 
 `
 
 export const LeftWrapper = styled.div`
   grid-area: image;
   object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  width: 100%;
 
   @media(min-width: 700px) {
     display: flex;
@@ -130,24 +110,22 @@ export const LeftWrapper = styled.div`
 export const RightWrapper = styled.div`
   grid-area: content;
   display: flex;
+  width: 100%;
   flex-direction: column;
   text-align: center;
+  justify-content: center;
   color: ${({ theme }) => theme.COLORS.CLARO};
-
-  .tracking-in-expand {
-	  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-  }
 
   h1 {
     padding: 6rem 0 0;
     font-size: 4rem;
     font-weight: 400;
+    animation: fadeIn 3s;
 
   }
 
   p {
-
+    animation: fadeIn 3s;
   }
 
   .button-wrapper {
