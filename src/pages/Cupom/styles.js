@@ -13,16 +13,16 @@ export const Container = styled.main`
 
   padding: 2rem;
 
+  overflow-x: hidden;
+
   .text-wrapper{
     padding: 6rem 0;
-    overflow: hidden;
   }
 
   .wrapper {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    overflow: hidden;
 
     .icon-wrapper{
       display: flex;
@@ -61,9 +61,7 @@ export const Container = styled.main`
   }
 
   footer{
-    position: absolute;
-    bottom: 0;
-    margin: 0 auto;
+    margin-top: 4rem;
   }
 
   .focus-in-contract {
