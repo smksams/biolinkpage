@@ -1,4 +1,5 @@
 import { Container, RightWrapper, LeftWrapper } from './styles';
+import { useNavigate } from 'react-router-dom';
 
 import eye from '../../assets/eye.webp'
 import art from '../../assets/art.webp'
@@ -11,7 +12,7 @@ import { ButtonText } from '../../components/ButtonText';
 import { Footer } from '../../components/Footer';
 
 export function Home() {
-
+  const navigate = useNavigate()
   function sendEmail() {
     window.location = "mailto:Influisafrederico@gmail.com";
   }
@@ -48,7 +49,12 @@ export function Home() {
             <ButtonText link='https://www.instagram.com/isabellaafrederico/' icon={FaInstagram}  />
           </div>
 
-          <Button className='slide-in-right-button' text={'MEUS CUPONS'} />
+          <Button 
+          onClick={() => navigate('cupom')}
+          className='slide-in-right-button' 
+          text={'MEUS CUPONS'} 
+          />
+
           <Button className='slide-in-right-button' text={'FALE COMIGO'} onClick={sendEmail} />
 
           <div className="icon-wrapper slide-in-right-icon">

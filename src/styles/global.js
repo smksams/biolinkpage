@@ -15,6 +15,7 @@ export default createGlobalStyle`
 body {
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
+  color: ${({ theme }) => theme.COLORS.CLARO}
 }
 
 body, input, button, textarea {
