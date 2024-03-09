@@ -8,6 +8,7 @@ export function AppRoutes() {
         <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/cupom' element={<Cupom />} />
+            <Route path="*" element={<Home />} />
         </Routes>
     )
 }
