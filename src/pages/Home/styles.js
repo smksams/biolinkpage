@@ -74,9 +74,10 @@ export const LeftWrapper = styled.div`
     grid-template-areas: 
     "second first"
     "fourth third";
-    padding: 2rem 0 0;
-    margin: 0;
+    padding: 2rem 2rem;
     align-items: center;
+    
+
 
     .first {
       grid-area: first;
@@ -97,7 +98,7 @@ export const LeftWrapper = styled.div`
     padding: .4rem;
     background-color: ${({ theme }) => theme.COLORS.CLARO};
     animation: fadeIn 3s;
-  }
+    }
   img {
     width: 100%;
     height: 100%;
@@ -112,10 +113,9 @@ export const LeftWrapper = styled.div`
     height: clamp(8.75rem, 10.191vw + 6.521rem, 18.75rem);
 
     @media(min-width: 700px) {
+      position: static;
       align-self: center;
       justify-self: center;
-      left:0;
-      top: 8rem;
     }
   }
   .second{
@@ -126,8 +126,7 @@ export const LeftWrapper = styled.div`
     height: clamp(8.75rem, 10.701vw + 6.409rem, 19.25rem);
 
     @media(min-width: 700px) {
-      top: 16rem;
-      left: 2rem;
+      position: static;
     }
   }
   .third{
@@ -140,8 +139,7 @@ export const LeftWrapper = styled.div`
     height: clamp(10.063rem, 11.783vw + 7.485rem, 21.625rem);
 
     @media(min-width: 700px) {
-      bottom: 8rem;
-      left: 0;
+      position: static;
     }
   }
   .fourth{
@@ -153,8 +151,7 @@ export const LeftWrapper = styled.div`
     height: clamp(9.813rem, 8.025vw + 8.057rem, 17.688rem);
 
     @media(min-width: 700px) {
-      top: 0;
-      left: 6rem;
+      position: static;
     }    
   }
 `
