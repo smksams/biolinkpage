@@ -1,6 +1,6 @@
 import { Container } from './styles.js'
 
-export function ButtonText({text,iconSize, link ,icon: Icon , ...rest}) {
+export function ButtonText({iconSize, link ,icon: Icon , ...rest}) {
   
   return(
     <Container
@@ -9,7 +9,6 @@ export function ButtonText({text,iconSize, link ,icon: Icon , ...rest}) {
     target="_blank"
     >
       {Icon && <Icon size={iconSize} />}
-      {text}
     </Container>
   )
 }
