@@ -12,7 +12,6 @@ export const Container = styled.main`
   background-image: linear-gradient(#000000,#FF9AB1);
 
   padding: 2rem;
-  overflow-y: auto;
 
   .text-wrapper{
     padding: 6rem 0;
@@ -23,6 +22,7 @@ export const Container = styled.main`
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    overflow: hidden;
 
     .icon-wrapper{
       display: flex;
