@@ -22,8 +22,8 @@ export function Cupom() {
     <Container>
 
       <div className="text-wrapper">
-        <h1 className='focus-in-contract'>Isabella Frederico</h1>
-        <p className='focus-in-contract'>UGC CREATOR & INCLUENCER DE BELEZA</p>
+        <h1 className='slide-in-blurred-right'>Isabella Frederico</h1>
+        <p className='slide-in-blurred-left'>UGC CREATOR & INCLUENCER DE BELEZA</p>
       </div>
 
       <div className="wrapper">

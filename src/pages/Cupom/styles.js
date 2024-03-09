@@ -17,6 +17,7 @@ export const Container = styled.main`
 
   .text-wrapper{
     padding: 6rem 0;
+    overflow: hidden;
   }
 
   .wrapper {
