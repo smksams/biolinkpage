@@ -11,7 +11,7 @@ export function Cupom() {
   async function copyContent(text) {
     try {
       await navigator.clipboard.writeText(text)
-      window.alert("Cupom copiado pressione Ok para continuar")
+      window.alert("Cupom copiado! Pressione para continuar.")
 
     } catch (err) {
       window.alert(`Falha ao copiar o cupom ${text}`)
