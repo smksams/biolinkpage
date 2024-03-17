@@ -45,8 +45,8 @@ export function Home() {
 
         <div className='button-wrapper'>
           <div className="icon-wrapper slide-in-right-icon">
-            <ButtonText link='https://www.tiktok.com/@isabellaafrederico' icon={FaTiktok}  />
-            <ButtonText link='https://www.instagram.com/isabellaafrederico/' icon={FaInstagram}  />
+            <ButtonText aria-label='tiktok' link='https://www.tiktok.com/@isabellaafrederico' icon={FaTiktok}  />
+            <ButtonText aria-label='instagram' link='https://www.instagram.com/isabellaafrederico/' icon={FaInstagram}  />
           </div>
 
           <Button 
@@ -58,8 +58,8 @@ export function Home() {
           <Button className='slide-in-right-button' text={'FALE COMIGO'} onClick={sendEmail} />
 
           <div className="icon-wrapper slide-in-right-icon">
-            <ButtonText link='https://br.pinterest.com/isabellaafrederico/' icon={FaPinterest}  />
-            <ButtonText link='https://www.youtube.com/@Isabellaafrederico' icon={FaYoutube}  />
+            <ButtonText aria-label='pinteres' link='https://br.pinterest.com/isabellaafrederico/' icon={FaPinterest}  />
+            <ButtonText aria-label='youtube' link='https://www.youtube.com/@Isabellaafrederico' icon={FaYoutube}  />
           </div>
         </div>
       </RightWrapper>
