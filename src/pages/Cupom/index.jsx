@@ -140,6 +140,28 @@ export function Cupom() {
             icon={MdContentPaste}
           />
         </div>
+
+        <div className="button-wrapper slide-in-blurred-right">
+          <Button
+            onClick={(e) => {
+              e.preventDefault();
+              copyContent('ISAFREDERICO10')
+              setTimeout(() => {
+                window.open('https://meuollie.com.br/', '_blank');
+              })
+            }}
+            text={'OLLIE 10% OFF'}
+          />
+
+          <ButtonText
+            onClick={(e) => {
+              e.preventDefault();
+              copyContent('ISAFREDERICO10')
+            }}
+            icon={MdContentPaste}
+          />
+        </div>
+
       </div>
       <Footer />
     </Container>
