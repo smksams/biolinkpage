@@ -36,19 +36,19 @@ export function Cupom() {
           <Button
             onClick={(e) => {
               e.preventDefault();
-              copyContent('30#ISASALVOU');
+              copyContent('ISABELLA');
               setTimeout(() => {
-                window.open('https://www.sallve.com.br/', '_blank')
+                window.open('https://www.loveinhair.com.br/', '_blank')
                 return () => clearTimeout(timeoutId)
               }, 1000);
             }}
-            text={'SALLVE r$30FF ACIMA DE r$130'}
+            text={'LOVE IN HAIR 10% OFF'}
           />
 
           <ButtonText
             onClick={(e) => {
               e.preventDefault();
-              copyContent('30#ISASALVOU')
+              copyContent('ISABELLA')
             }}
             icon={MdContentPaste}
           />
