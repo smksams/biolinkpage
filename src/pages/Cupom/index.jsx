@@ -38,7 +38,7 @@ export function Cupom() {
               e.preventDefault();
               copyContent('ISABELLA');
               setTimeout(() => {
-                window.open('https://www.loveinhair.com.br/', '_blank')
+                window.open('https://www.loveinhair.com.br/')
                 return () => clearTimeout(timeoutId)
               }, 1000);
             }}
@@ -61,7 +61,7 @@ export function Cupom() {
               e.preventDefault();
               copyContent('SKMEUPOVO')
               setTimeout(() => {
-                window.open('https://www.skelt.com.br/', '_blank');
+                window.open('https://www.skelt.com.br/');
               }
               )
             }}
@@ -84,7 +84,7 @@ export function Cupom() {
               e.preventDefault();
               copyContent('flp-isabellaafrederico')
               setTimeout(() => {
-                window.open('https://magpapelaria.com.br/', '_blank');
+                window.open('https://magpapelaria.com.br/');
               })
             }}
             text={'MAGNOLIA 10% OFF'}
@@ -105,7 +105,7 @@ export function Cupom() {
               e.preventDefault();
               copyContent('POVOLINDO')
               setTimeout(() => {
-                window.open('https://elindacosmeticos.com.br/', '_blank');
+                window.open('https://elindacosmeticos.com.br/');
               })
             }}
             text={'ELINDA 12% OFF'}
@@ -126,7 +126,7 @@ export function Cupom() {
               e.preventDefault();
               copyContent('AISAFREDERICO')
               setTimeout(() => {
-                window.open('https://icanbeauty.com.br/', '_blank');
+                window.open('https://icanbeauty.com.br/');
               })
             }}
             text={'ICAN 15% OFF'}
@@ -147,7 +147,7 @@ export function Cupom() {
               e.preventDefault();
               copyContent('ISAFREDERICO10')
               setTimeout(() => {
-                window.open('https://meuollie.com.br/', '_blank');
+                window.open('https://meuollie.com.br/');
               })
             }}
             text={'OLLIE 10% OFF'}
