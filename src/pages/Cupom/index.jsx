@@ -37,10 +37,7 @@ export function Cupom() {
             onClick={(e) => {
               e.preventDefault();
               copyContent('ISABELLA');
-              setTimeout(() => {
-                window.open('https://www.loveinhair.com.br/')
-                return () => clearTimeout(timeoutId)
-              }, 1000);
+              window.open('https://www.loveinhair.com.br/')
             }}
             text={'LOVE IN HAIR 10% OFF'}
           />
