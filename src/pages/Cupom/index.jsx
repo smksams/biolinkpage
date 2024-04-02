@@ -57,10 +57,7 @@ export function Cupom() {
             onClick={(e) => {
               e.preventDefault();
               copyContent('SKMEUPOVO')
-              setTimeout(() => {
-                window.open('https://www.skelt.com.br/');
-              }
-              )
+              window.open('https://www.skelt.com.br/');
             }}
             text={'SKELT 10% OFF'}
           />
@@ -80,9 +77,7 @@ export function Cupom() {
             onClick={(e) => {
               e.preventDefault();
               copyContent('flp-isabellaafrederico')
-              setTimeout(() => {
-                window.open('https://magpapelaria.com.br/');
-              })
+              window.open('https://magpapelaria.com.br/');
             }}
             text={'MAGNOLIA 10% OFF'}
           />
@@ -101,9 +96,7 @@ export function Cupom() {
             onClick={(e) => {
               e.preventDefault();
               copyContent('POVOLINDO')
-              setTimeout(() => {
-                window.open('https://elindacosmeticos.com.br/');
-              })
+              window.open('https://elindacosmeticos.com.br/');
             }}
             text={'ELINDA 12% OFF'}
           />
@@ -122,9 +115,7 @@ export function Cupom() {
             onClick={(e) => {
               e.preventDefault();
               copyContent('AISAFREDERICO')
-              setTimeout(() => {
-                window.open('https://icanbeauty.com.br/');
-              })
+              window.open('https://icanbeauty.com.br/');
             }}
             text={'ICAN 15% OFF'}
           />
@@ -143,9 +134,7 @@ export function Cupom() {
             onClick={(e) => {
               e.preventDefault();
               copyContent('ISAFREDERICO10')
-              setTimeout(() => {
-                window.open('https://meuollie.com.br/');
-              })
+              window.open('https://meuollie.com.br/');
             }}
             text={'OLLIE 10% OFF'}
           />
